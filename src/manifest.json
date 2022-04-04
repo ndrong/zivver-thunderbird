@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Zivver for Thunderbird",
+  "description": "Automatically decrypt messages sent by Zivver",
+  "version": "1.0.0",
+  "author": "Noam Drong",
+  "applications": {
+    "gecko": {
+      "id": "webext-zivver-thunderbird@n04m.nl",
+      "strict_min_version": "78.0"
+    }
+  },
+  "permissions": [
+    "messagesRead",
+    "messagesModify",
+    "storage",
+    "https://app.zivver.com/api/*"
+  ],
+  "background": {
+    "page": "background.html"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false,
+    "browser_style": true
+  }
+}

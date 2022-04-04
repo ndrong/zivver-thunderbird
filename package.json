@@ -1,0 +1,29 @@
+{
+  "name": "zivver-thunderbird",
+  "version": "1.0.0",
+  "description": " Automatically decrypt messages sent by Zivver",
+  "main": "background.js",
+  "scripts": {
+    "build": "web-ext build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndrong/zivver-thunderbird.git"
+  },
+  "keywords": [
+    "zivver",
+    "thunderbird"
+  ],
+  "author": "Noam Drong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ndrong/zivver-thunderbird/issues"
+  },
+  "homepage": "https://github.com/ndrong/zivver-thunderbird",
+  "webExt": {
+    "sourceDir": "src"
+  },
+  "devDependencies": {
+    "web-ext": "^6.8.0"
+  }
+}
