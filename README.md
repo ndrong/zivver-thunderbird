@@ -15,6 +15,13 @@ This extension automatically detects Zivver messages and decrypts them on-the-fl
 ![Example request view 2](https://user-images.githubusercontent.com/22079593/161519555-f9d11faa-d44e-446e-9cbb-e45e5efe8609.png)  
 _Screenshots showing where to find the refresh token using the Developer Tools on Firefox._
 
+## Building from source
+1. Clone the repo: `git@github.com:NDrong/zivver-thunderbird.git`
+2. Change your current working directory to the cloned repo: `cd zivver-thunderbird`
+3. Install dependencies: `npm install`
+4. Build the extension: `npm run build`
+5. The compiled extension can be found under `web-ext-artifacts/`
+
 ## Contributing
 Contributions are welcome! Please feel free to open a pull request or issue if you have any suggestions or improvements.  
 Since this is my very first Thunderbird extension, I'm aware that code quality may not be optimal (feel free to improve on that as well). 
